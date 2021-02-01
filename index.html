@@ -77,42 +77,51 @@
             class="w-full flex-grow lg:flex lg:items-center lg:w-auto hidden mt-2 lg:mt-0 bg-white lg:bg-transparent text-black p-4 lg:p-0 z-20"
             id="nav-content"
           >
-            <ul class="list-reset lg:flex justify-end flex-1 items-center">
+            <ul
+              class="list-reset lg:flex justify-end flex-1 items-center text-xl font-bold leading-none"
+            >
               <!-- <li class="mr-3">
                 <a class="inline-block py-2 px-4 text-black font-bold no-underline" href="#">Active</a>
               </li> -->
               <li class="mr-3">
                 <a
                   class="inline-block text-black no-underline hover:text-gray-800 hover:text-underline py-2 px-4"
-                  href="#"
+                  href="/index.html"
                   >Home</a
                 >
               </li>
               <li class="mr-3">
                 <a
                   class="inline-block text-black no-underline hover:text-gray-800 hover:text-underline py-2 px-4"
-                  href="#"
+                  href="#services-section"
                   >Services</a
                 >
               </li>
               <li class="mr-3">
                 <a
                   class="inline-block text-black no-underline hover:text-gray-800 hover:text-underline py-2 px-4"
-                  href="#"
+                  href="#image-gallery-section"
                   >Gallery</a
                 >
               </li>
               <li class="mr-3">
                 <a
                   class="inline-block text-black no-underline hover:text-gray-800 hover:text-underline py-2 px-4"
-                  href="#"
+                  href="#testimonials-section"
                   >Testimonials</a
                 >
               </li>
               <li class="mr-3">
                 <a
                   class="inline-block text-black no-underline hover:text-gray-800 hover:text-underline py-2 px-4"
-                  href="#"
+                  href="#contact-section"
+                  >Contact</a
+                >
+              </li>
+              <li class="mr-3">
+                <a
+                  class="inline-block text-black no-underline hover:text-gray-800 hover:text-underline py-2 px-4"
+                  href="#contact-section"
                   >Careers</a
                 >
               </li>
@@ -190,7 +199,7 @@
 
     <!-- SECTION 2 -->
 
-    <section class="bg-white border-b pb-8">
+    <section id="services-section" class="bg-white border-b pb-8">
       <!-- Service Section Heading -->
       <div class="container max-w-5xl mx-auto m-8">
         <h1
@@ -229,21 +238,24 @@
               <h3 class="text-xl text-gray-800 font-bold leading-none mb-3">
                 Pet Stain and Odor Removal
               </h3>
-              <p class="text-gray-600 mb-8">
-                Mistakes happen. With our expertise and industrial equipment we
-                can fix it.
-              </p>
+              <p class="text-gray-600 mb-8">[Insert Text]</p>
             </div>
             <div class="service">
               <h3 class="text-xl text-gray-800 font-bold leading-none mb-3">
                 Area Rug Cleaning
               </h3>
-              <p class="text-gray-600 mb-8"></p>
+              <p class="text-gray-600 mb-8">[Insert Text]</p>
             </div>
             <div class="service">
               <h3 class="text-xl text-gray-800 font-bold leading-none mb-3">
                 Upholstery Cleaning
               </h3>
+              <p class="text-gray-600 mb-8">
+                We provide quality upholstery steam cleaning service for all
+                types of upholstery fabric. The standard service includes
+                cleaning of all upholstered furniture and cushions of the same
+                material.
+              </p>
             </div>
           </div>
 
@@ -285,33 +297,28 @@
               </h3>
 
               <p class="text-gray-600 mb-8">
-                We safely get ceramic and porcelain tiled surfaces sparkling
-                again! And if your tile is made of natural material such as
-                granite, marble, slate, travertine or Saltillo, no problem!
+                We offer tile and grout cleaning at competitive prices to
+                thoroughly scrub the tile and grout lines and restore the beauty
+                of your tile floor.
               </p>
             </div>
             <div class="service">
               <h3 class="text-xl text-gray-800 font-bold leading-none mb-3">
                 Wood Floor Refinishing, Stripping, and Waxing
               </h3>
+              <p class="text-gray-600 mb-8">[Insert Text]</p>
             </div>
             <div class="service">
               <h3 class="text-xl text-gray-800 font-bold leading-none mb-3">
                 Water Damage Restoration
               </h3>
+              <p class="text-gray-600 mb-8">[Insert Text]</p>
             </div>
             <div class="service">
               <h3 class="text-xl text-gray-800 font-bold leading-none mb-3">
                 Air Duct Cleaning
               </h3>
-              <p class="text-gray-600 mb-8">
-                According to the EPA, dust in your ventilation systems can lead
-                to your indoor air quality being 70 to 100 times more polluted
-                than outdoors. Contaminants that can find their way into your
-                ductwork are: bacteria, chemical residue, dust, mildew, pollen,
-                viruses, and other airborne contaminants. Schedule a cleaning
-                today!
-              </p>
+              <p class="text-gray-600 mb-8">[Insert Text]</p>
             </div>
           </div>
           <!-- Overlapping Images -->
@@ -399,7 +406,10 @@
       </div>
     </div>
     <!-- Testimonials -->
-    <div class="flex flex-col md:flex-row shadow-sm overflow-hidden w-full">
+    <div
+      id="testimonials-section"
+      class="flex flex-col md:flex-row shadow-sm overflow-hidden w-full"
+    >
       <!-- What are customers are saying -->
       <div
         class="relative w-full py-2 md:py-24 bg-brand-blue md:w-1/2 flex flex-col item-center justify-center"
@@ -505,12 +515,33 @@
         </div>
       </div>
     </div>
-
+    <section class="mx-auto text-center py-6 bg-brand-blue">
+      <h1
+        class="w-full my-2 text-5xl font-bold leading-tight text-center text-white"
+      >
+        Call Jake's for Your Mistakes!
+      </h1>
+      <div class="w-full mb-4">
+        <div
+          class="h-1 mx-auto bg-white w-1/6 opacity-25 my-0 py-0 rounded-t"
+        ></div>
+      </div>
+      <h3 class="my-4 text-3xl leading-tight">
+        <a class="" href="tel:+18065448072">806-544-8072</a>
+      </h3>
+      <!-- <button
+        class="mx-auto lg:mx-0 hover:underline bg-white text-gray-800 font-bold rounded-full my-6 py-4 px-8 shadow-lg focus:outline-none focus:shadow-outline transform transition hover:scale-105 duration-300 ease-in-out"
+      >
+        Action!
+      </button> -->
+    </section>
     <!-- Credibility -->
     <section>
       <img class="mx-auto" src="./images/iicrc-certification.png" alt="" />
-      <p class="text-xl text-gray-800 font-bold leading-none mb-3 text-center">
-        Certified, Licensed, & Insured!
+      <p
+        class="uppercase text-2xl text-gray-800 font-bold leading-none mb-3 text-center"
+      >
+        Certified, Licensed, & Insured
       </p>
     </section>
     <!-- About Us Section -->
@@ -534,8 +565,212 @@
         </p>
       </div>
     </section>
+    <!-- <div class="w-full relative">
+      <div class="custom-shape-divider-bottom-1612153621">
+        <svg
+          data-name="Layer 1"
+          xmlns="http://www.w3.org/2000/svg"
+          viewBox="0 0 1200 120"
+          preserveAspectRatio="none"
+        >
+          <path
+            d="M985.66,92.83C906.67,72,823.78,31,743.84,14.19c-82.26-17.34-168.06-16.33-250.45.39-57.84,11.73-114,31.07-172,41.86A600.21,600.21,0,0,1,0,27.35V120H1200V95.8C1132.19,118.92,1055.71,111.31,985.66,92.83Z"
+            class="shape-fill"
+          ></path>
+        </svg>
+      </div>
+    </div> -->
+    <section id="contact-section" class="container mx-auto mb-8">
+      <div class="grid grid-cols-1 md:grid-cols-2">
+        <div class="p-6 mr-2 bg-gray-100 dark:bg-gray-800 sm:rounded-lg">
+          <h1
+            class="text-4xl sm:text-5xl text-gray-800 dark:text-white font-extrabold tracking-tight"
+          >
+            Get in touch
+          </h1>
+          <p
+            class="text-normal text-lg sm:text-2xl font-medium text-gray-600 dark:text-gray-400 mt-2"
+          >
+            Fill in the form to start a conversation
+          </p>
+
+          <div class="flex items-center mt-8 text-gray-600 dark:text-gray-400">
+            <svg
+              fill="none"
+              stroke="currentColor"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="1.5"
+              viewBox="0 0 24 24"
+              class="w-8 h-8 text-gray-500"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="1.5"
+                d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"
+              />
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="1.5"
+                d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"
+              />
+            </svg>
+            <div class="ml-4 text-md tracking-wide font-semibold w-40">
+              301 SW K Seminole, TX 79360
+            </div>
+          </div>
+
+          <div class="flex items-center mt-4 text-gray-600 dark:text-gray-400">
+            <svg
+              fill="none"
+              stroke="currentColor"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="1.5"
+              viewBox="0 0 24 24"
+              class="w-8 h-8 text-gray-500"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="1.5"
+                d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"
+              />
+            </svg>
+            <a class="ml-4 text-md tracking-wide font-semibold w-40">
+              806-544-8072
+            </a>
+          </div>
+
+          <div class="flex items-center mt-2 text-gray-600 dark:text-gray-400">
+            <svg
+              fill="none"
+              stroke="currentColor"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="1.5"
+              viewBox="0 0 24 24"
+              class="w-8 h-8 text-gray-500"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="1.5"
+                d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"
+              />
+            </svg>
+            <div class="ml-4 text-md tracking-wide font-semibold w-40">
+              Jakessteamer@gmail.com
+            </div>
+          </div>
+        </div>
+
+        <form class="p-6 flex flex-col justify-center">
+          <div class="flex flex-col">
+            <label for="name" class="hidden">Full Name</label>
+            <input
+              type="name"
+              name="name"
+              id="name"
+              placeholder="Full Name"
+              class="w-100 mt-2 py-3 px-3 rounded-lg bg-white dark:bg-gray-800 border border-gray-400 dark:border-gray-700 text-gray-800 font-semibold focus:border-indigo-500 focus:outline-none"
+            />
+          </div>
+
+          <div class="flex flex-col mt-2">
+            <label for="email" class="hidden">Email</label>
+            <input
+              type="email"
+              name="email"
+              id="email"
+              placeholder="Email"
+              class="w-100 mt-2 py-3 px-3 rounded-lg bg-white dark:bg-gray-800 border border-gray-400 dark:border-gray-700 text-gray-800 font-semibold focus:border-indigo-500 focus:outline-none"
+            />
+          </div>
+
+          <div class="flex flex-col mt-2">
+            <label for="tel" class="hidden">Number</label>
+            <input
+              type="tel"
+              name="tel"
+              id="tel"
+              placeholder="Telephone Number"
+              class="w-100 mt-2 py-3 px-3 rounded-lg bg-white dark:bg-gray-800 border border-gray-400 dark:border-gray-700 text-gray-800 font-semibold focus:border-indigo-500 focus:outline-none"
+            />
+          </div>
+
+          <button
+            type="submit"
+            class="md:w-32 bg-brand-blue hover:bg-blue-dark text-white font-bold py-3 px-6 rounded-lg mt-3 hover:bg-indigo-500 transition ease-in-out duration-300"
+          >
+            Submit
+          </button>
+        </form>
+      </div>
+    </section>
+
+    <!--Footer-->
+    <footer class="bg-brand-blue mb-3">
+      <div class="container mx-auto px-8">
+        <div class="w-full flex flex-col md:flex-row py-6">
+          <div class="flex-1">
+            <h3 class="text-xl text-white-800 font-bold leading-none mb-3">
+              Service Areas:
+            </h3>
+            <p>Gaines County</p>
+            <p>Andrews County</p>
+            <p>Midland County</p>
+            <p>Yoakum County</p>
+            <p>Dawson County</p>
+            <p>Terry County</p>
+          </div>
+          <div class="flex-1">
+            <div class="contact-info">
+              <h3
+                class="uppercase text-xl text-white-800 font-bold leading-none mb-3"
+              >
+                Jake's Steamer
+              </h3>
+              <address>301 SW K Seminole, TX 79360</address>
+              <a class="" href="tel:+18065448072">806-544-8072</a>
+              <a href="mailto:jakessteamer@gmail.com">jakessteamer@gmail.com</a>
+            </div>
+          </div>
+          <div class="flex-1">
+            <h3
+              class="uppercase text-xl text-white-800 font-bold leading-none mb-3"
+            >
+              Social
+            </h3>
+            <ul class="list-reset mb-6">
+              <li class="mt-2 inline-block mr-2 md:block md:mr-0">
+                <a
+                  href="https://www.facebook.com/jakessteamer01/"
+                  class="no-underline hover:underline text-white-800 hover:text-pink-500"
+                  >Facebook</a
+                >
+              </li>
+            </ul>
+          </div>
+          <div class="flex-1">
+            <div class="hours-of-operation">
+              <h3
+                class="uppercase text-xl text-white-800 font-bold leading-none mb-3"
+              >
+                Hours:
+              </h3>
+              <p>Sunday: Closed</p>
+              <p>Monday - Friday: 8:00AM-6:00PM</p>
+              <p>Saturday: Saturday 8:00AM-12:00AM</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
     <div class="w-full relative">
-      <div class="custom-shape-divider-bottom-1612149660">
+      <div class="custom-shape-divider-bottom-1612154150">
         <svg
           data-name="Layer 1"
           xmlns="http://www.w3.org/2000/svg"
@@ -549,177 +784,24 @@
         </svg>
       </div>
     </div>
-    <section class="mx-auto text-center py-6 mb-12 bg-brand-blue">
-      <h1
-        class="w-full my-2 text-5xl font-bold leading-tight text-center text-white"
-      >
-        Call Jake's for Your Mistakes
-      </h1>
-      <div class="w-full mb-4">
-        <div
-          class="h-1 mx-auto bg-white w-1/6 opacity-25 my-0 py-0 rounded-t"
-        ></div>
-      </div>
-      <h3 class="my-4 text-3xl leading-tight">
-        <a class="" href="tel:+18065448072">806-544-8072</a>
-      </h3>
-      <!-- <button
-        class="mx-auto lg:mx-0 hover:underline bg-white text-gray-800 font-bold rounded-full my-6 py-4 px-8 shadow-lg focus:outline-none focus:shadow-outline transform transition hover:scale-105 duration-300 ease-in-out"
-      >
-        Action!
-      </button> -->
-    </section>
-    <div class="w-full relative">
-      <div class="custom-shape-divider-top-1612150196">
-        <svg
-          data-name="Layer 1"
-          xmlns="http://www.w3.org/2000/svg"
-          viewBox="0 0 1200 120"
-          preserveAspectRatio="none"
-        >
-          <path
-            d="M0,0V7.23C0,65.52,268.63,112.77,600,112.77S1200,65.52,1200,7.23V0Z"
-            class="shape-fill"
-          ></path>
-        </svg>
+    <div class="fab-wrapper">
+      <input id="fabCheckbox" type="checkbox" class="fab-checkbox" />
+      <div class="fab"></div>
+      <div class="fab-wheel">
+        <a class="fab-action fab-action-1">
+          <i class="fas fa-question"></i>
+        </a>
+        <a class="fab-action fab-action-2">
+          <i class="fas fa-book"></i>
+        </a>
+        <a class="fab-action fab-action-3">
+          <i class="fas fa-address-book"></i>
+        </a>
+        <a class="fab-action fab-action-4">
+          <i class="fas fa-info"></i>
+        </a>
       </div>
     </div>
-    <!--Footer-->
-    <footer class="bg-white">
-      <div class="container mx-auto px-8">
-        <div class="w-full flex flex-col md:flex-row py-6">
-          <div class="flex-1 mb-6 text-black">
-            <a
-              class="text-pink-600 no-underline hover:no-underline font-bold text-2xl lg:text-4xl"
-              href="#"
-            >
-              <!--Icon from: http://www.potlabicons.com/ -->
-              <svg
-                class="h-8 fill-current inline"
-                xmlns="http://www.w3.org/2000/svg"
-                viewBox="0 0 512.005 512.005"
-              >
-                <rect
-                  fill="#2a2a31"
-                  x="16.539"
-                  y="425.626"
-                  width="479.767"
-                  height="50.502"
-                  transform="matrix(1,0,0,1,0,0)"
-                />
-                <path
-                  class="plane-take-off"
-                  d=" M 510.7 189.151 C 505.271 168.95 484.565 156.956 464.365 162.385 L 330.156 198.367 L 155.924 35.878 L 107.19 49.008 L 211.729 230.183 L 86.232 263.767 L 36.614 224.754 L 0 234.603 L 45.957 314.27 L 65.274 347.727 L 105.802 336.869 L 240.011 300.886 L 349.726 271.469 L 483.935 235.486 C 504.134 230.057 516.129 209.352 510.7 189.151 Z "
-                />
-              </svg>
-              LANDING
-            </a>
-          </div>
-          <div class="flex-1">
-            <p class="uppercase text-gray-500 md:mb-6">Links</p>
-            <ul class="list-reset mb-6">
-              <li class="mt-2 inline-block mr-2 md:block md:mr-0">
-                <a
-                  href="#"
-                  class="no-underline hover:underline text-gray-800 hover:text-pink-500"
-                  >FAQ</a
-                >
-              </li>
-              <li class="mt-2 inline-block mr-2 md:block md:mr-0">
-                <a
-                  href="#"
-                  class="no-underline hover:underline text-gray-800 hover:text-pink-500"
-                  >Help</a
-                >
-              </li>
-              <li class="mt-2 inline-block mr-2 md:block md:mr-0">
-                <a
-                  href="#"
-                  class="no-underline hover:underline text-gray-800 hover:text-pink-500"
-                  >Support</a
-                >
-              </li>
-            </ul>
-          </div>
-          <div class="flex-1">
-            <p class="uppercase text-gray-500 md:mb-6">Legal</p>
-            <ul class="list-reset mb-6">
-              <li class="mt-2 inline-block mr-2 md:block md:mr-0">
-                <a
-                  href="#"
-                  class="no-underline hover:underline text-gray-800 hover:text-pink-500"
-                  >Terms</a
-                >
-              </li>
-              <li class="mt-2 inline-block mr-2 md:block md:mr-0">
-                <a
-                  href="#"
-                  class="no-underline hover:underline text-gray-800 hover:text-pink-500"
-                  >Privacy</a
-                >
-              </li>
-            </ul>
-          </div>
-          <div class="flex-1">
-            <p class="uppercase text-gray-500 md:mb-6">Social</p>
-            <ul class="list-reset mb-6">
-              <li class="mt-2 inline-block mr-2 md:block md:mr-0">
-                <a
-                  href="#"
-                  class="no-underline hover:underline text-gray-800 hover:text-pink-500"
-                  >Facebook</a
-                >
-              </li>
-              <li class="mt-2 inline-block mr-2 md:block md:mr-0">
-                <a
-                  href="#"
-                  class="no-underline hover:underline text-gray-800 hover:text-pink-500"
-                  >Linkedin</a
-                >
-              </li>
-              <li class="mt-2 inline-block mr-2 md:block md:mr-0">
-                <a
-                  href="#"
-                  class="no-underline hover:underline text-gray-800 hover:text-pink-500"
-                  >Twitter</a
-                >
-              </li>
-            </ul>
-          </div>
-          <div class="flex-1">
-            <p class="uppercase text-gray-500 md:mb-6">Company</p>
-            <ul class="list-reset mb-6">
-              <li class="mt-2 inline-block mr-2 md:block md:mr-0">
-                <a
-                  href="#"
-                  class="no-underline hover:underline text-gray-800 hover:text-pink-500"
-                  >Official Blog</a
-                >
-              </li>
-              <li class="mt-2 inline-block mr-2 md:block md:mr-0">
-                <a
-                  href="#"
-                  class="no-underline hover:underline text-gray-800 hover:text-pink-500"
-                  >About Us</a
-                >
-              </li>
-              <li class="mt-2 inline-block mr-2 md:block md:mr-0">
-                <a
-                  href="#"
-                  class="no-underline hover:underline text-gray-800 hover:text-pink-500"
-                  >Contact</a
-                >
-              </li>
-            </ul>
-          </div>
-        </div>
-      </div>
-      <a
-        href="https://www.freepik.com/free-photos-vectors/background"
-        class="text-gray-500"
-        >Background vector created by freepik - www.freepik.com</a
-      >
-    </footer>
     <!-- jQuery if you need it
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
   -->
